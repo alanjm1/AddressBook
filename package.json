@@ -1,0 +1,16 @@
+{
+  "name": "address-book-exercise",
+  "description": "Programming exercise: Create an address book",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "colors": "^1.0.3",
+    "concurrently": "^6.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.12.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"node server.js\" \"cd address-book-ui && npm start\""
+  }
+}

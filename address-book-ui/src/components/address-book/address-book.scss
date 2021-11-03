@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+.address-book {
+	color: #484848;
+	font-family: "Roboto", sans-serif;
+
+	.address-list-column {
+		background-color: #ecf0f1;
+		min-height: 100vh;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.address-list-column {
+			height: -webkit-fill-available;
+		}
+	}
+}
