@@ -5,10 +5,10 @@ I used the latest version Node.js LTS at the time of starting (16.13.0), latest 
 
 ## Instructions for installing
 
-- Run `npm install` from the **interview-web-address-book** directory.
+- Run `npm install` from the directory with 'server.js'.
 - Change directory to the React code using `cd address-book-ui`.
 - Run `npm install` to install the needed packages.
-- You can move back up to the **interview-web-address-book** directory for the next step if you are going to the application.
+- You can move back up to the initial directory for the next step if you are going to run the application.
 
 ## Running the application
 
